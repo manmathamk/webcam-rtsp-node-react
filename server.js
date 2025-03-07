@@ -1,20 +1,4 @@
-// const Stream = require("node-rtsp-stream");
 
-// const stream = new Stream({
-//   name: "camera_stream",
-//   streamUrl: "rtsp://username:password@192.168.2.16:554/stream1",
-//   wsPort: 9999, // Ensure WebSocket server has a valid port
-//   ffmpegOptions: {
-//     "-preset": "ultrafast",
-//     "-tune": "zerolatency",
-//     "-fflags": "nobuffer",
-//     "-r": 30, // Frame rate
-//     "-s": "1280x720", // Resolution
-//     "-b:v": "800k", // Bitrate
-//   },
-// });
-
-// console.log("Streaming RTSP feed via WebSocket on ws://localhost:9999");
 
 const Stream = require("node-rtsp-stream");
 
